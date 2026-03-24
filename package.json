@@ -1,0 +1,27 @@
+{
+  "name": "introtobackend",
+  "version": "1.0.0",
+  "description": "first lesson on backend",
+  "homepage": "https://github.com/Shalom30/Learning_BE_NODE#readme",
+  "bugs": {
+    "url": "https://github.com/Shalom30/Learning_BE_NODE/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shalom30/Learning_BE_NODE.git"
+  },
+  "license": "ISC",
+  "author": "Shalom",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/src/index.js",
+    "dev": "nodemon backend/src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.3.1",
+    "nodemon": "^3.1.14"
+  }
+}
